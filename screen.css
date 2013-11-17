@@ -37,7 +37,7 @@ li{
 	margin:20px 25px;
 }
 .contain{
-	width:100%;
+	width:1280px;
 	margin:0, auto;
 }
 
@@ -50,7 +50,7 @@ h1{
 }
 
 h2{
-	color: rgba(255, 255, 255, 0.50);
+	color: rgba(255, 255, 255, 0.75);
 	font-size: 20px;
 }
 
@@ -80,6 +80,13 @@ a:hover{
 	width:100%;
 	height:40px;
 	background-color:#555146;
+}
+
+.shift{
+	position:relative;
+	top:50px;
+	left:0px;
+	z-index:200;
 }
 
 .detail-bg{
@@ -113,13 +120,14 @@ section:before{
 }
 
 .annecdote{
-	width: 700px;
+	width: 580px;
 	height: auto;
 }
 
 p{
-	margin: 2px 0px 0px 30px;
+	margin: 2px 0px 0px 0px;
 	font-size: 16px;
+	color: white;
 }
 	
 @media screen and (min-width: 600px) {
@@ -129,10 +137,10 @@ p{
     }
 
 	h1 {
-	font-family: 'Pacifico', cursive;
-	font-weight: bold;
-	line-height: 70px;
-	font-size: 50px;
+		font-family: 'Pacifico', cursive;
+		font-weight: bold;
+		line-height: 70px;
+		font-size: 50px;
 	}
 
 	.hero-bg{
@@ -144,9 +152,9 @@ p{
 
 	.detail-bg{
 		background-image:url(images/regrets_expertise.jpg);
-		background-size: 1280px;
+		background-size: 1445px;
 		width:100%;
-		height:800px;
+		height:1200px;
 	}
 
 
