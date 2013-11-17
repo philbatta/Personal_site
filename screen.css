@@ -1,0 +1,122 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+body {
+    background: pink;
+    width: auto;
+    height: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul {
+	list-style-type: none;
+	padding:0; 
+	margin:0;
+	width: 100%;
+}
+.hero-bg{
+	background-image:url(images/hero-bg.jpg);
+	background-size: 800px;
+	width:100%;
+	height:800px;
+}
+
+.navbar{
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	margin-left: 18px;
+}
+
+li{
+	float: left;
+	margin:20px 25px;
+}
+.contain{
+	width:100%;
+	margin:0, auto;
+}
+
+h1{
+	font-family: 'Pacifico', cursive;
+	font-weight: bold;
+	line-height: 40px;
+	font-size: 30px;
+	color:#555146;
+}
+
+h2{
+	color: rgba(255, 255, 255, 0.50);
+	font-size: 20px;
+}
+
+.poem {
+	margin-left: 40px;
+	margin-top: 0px;
+	overflow: auto;
+}
+
+a{
+	opacity: 60%;
+	color: #555146;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+a:hover{
+	opacity: 100%;
+	color: #555146;
+	border-color: #555146;
+	text-decoration: none;
+	border-bottom: 3px solid #555146;
+}
+
+section{
+	background-color:#555146;
+	color: white;
+	padding:1px 0px 10px 30px;
+	text-transform: uppercase;
+} 
+
+.clear{
+	clear:both;
+}
+
+.annecdote{
+	width: 700px;
+	height: auto;
+}
+
+p{
+	margin: 2px 0px 0px 30px;
+	font-size: 16px;
+}
+	
+@media screen and (min-width: 600px) {
+    body {
+        background: orange;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+	h1 {
+	font-family: 'Pacifico', cursive;
+	font-weight: bold;
+	line-height: 70px;
+	font-size: 50px;
+	}
+
+	.hero-bg{
+		background-image:url(images/hero-bg.jpg);
+		background-size: 1280px;
+		width:100%;
+		height:800px;
+	}
+
+
+
+}
